@@ -5,3 +5,4 @@ logs
 .direnv/
 .cpcache/
 .nrepl-port
+.DS_Store
