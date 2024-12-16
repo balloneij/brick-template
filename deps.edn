@@ -1,0 +1,10 @@
+{:paths ["src"]
+ :deps {babashka/fs {:mvn/version "0.5.22"}
+        babashka/process {:mvn/version "0.5.22"}
+        cheshire/cheshire {:mvn/version "5.13.0"}
+        clj-http/clj-http {:mvn/version "3.13.0"}
+        org.clojure/data.json {:mvn/version "2.5.0"}
+        techascent/tech.ml.dataset {:mvn/version "7.035"}
+        com.techascent/tmd-parquet {:mvn/version "1.001"}}
+ :aliases
+ {:dvc {:ns-default ai.biobricks.dvc}}}

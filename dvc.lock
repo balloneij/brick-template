@@ -1,2 +1,4 @@
 schema: '2.0'
-stages: {}
+stages:
+  greet:
+    cmd: clj -Xdvc hello-world

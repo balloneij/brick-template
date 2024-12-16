@@ -33,3 +33,5 @@ stages:
       - list
     outs:
       - brick
+  greet:
+    cmd: clj -Xdvc hello-world

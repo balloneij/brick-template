@@ -3,3 +3,5 @@ logs
 /list
 /brick
 .direnv/
+.cpcache/
+.nrepl-port
